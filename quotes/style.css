@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(228, 228, 228);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.Container{
+    text-align: center;
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0 0 80px rgba(0, 0, 0, 0.1);
+}
+
+.Box{
+    text-align: center;
+    background: rgb(233, 232, 232);
+    border-radius: 50px;
+    border-left: 5px solid blue;
+    padding: 10px;
+}
+  
+button{
+    /* background-color: blue;
+    color: white; */
+    border-radius: 5px;
+    padding: 5px;
+    font-size: 15px;
+    margin-top: 10px;
+    cursor: pointer;
+}
