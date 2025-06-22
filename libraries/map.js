@@ -17,3 +17,11 @@ console.log(mymap.values());  // it print all values from map
 console.log(mymap.entries());  // it creates array of each keys and values pair
 console.log(mymap.size);  // it total number of keys-value pair
 console.log(mymap.get(1));
+
+// has(value) it checks value whether is present or not
+let check = mymap.has("name");
+console.log(check);
+
+// delete value throw pass key 
+console.log(mymap.delete("age"));
+console.log(mymap);
